@@ -20,6 +20,8 @@ This is model for classifier described in our paper "Graph embedding resolves ge
 ```sh
 $ python run_subcompartment_classifier.py -x testing_data.txt -y testing_labels.txt -s sub_compartments_model.json -w 
 sub_compartments_model.h5 -o predicted_labes.txt
+python run_subcompartment_classifier.py -x testing_data.txt -y testing_labels.txt -s Rao_model.json -w
+Rao_model.h5 -o predicted_labes.txt
 ```
 
  
